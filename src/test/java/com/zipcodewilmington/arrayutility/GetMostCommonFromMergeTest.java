@@ -8,6 +8,7 @@ import org.junit.Test;
  * The purpose of this class is to thoroughly test the method getMostCommonFromMerge()
  */
 public class GetMostCommonFromMergeTest {
+
     @Test
     public void integerTest() {
         // Given
@@ -69,4 +70,6 @@ public class GetMostCommonFromMergeTest {
         // Then
         Assert.assertEquals(expected, actual);
     }
+
+
 }

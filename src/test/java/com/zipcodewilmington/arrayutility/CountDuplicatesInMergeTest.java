@@ -8,6 +8,7 @@ import org.junit.Test;
  * The purpose of this class is to thoroughly test the method countDuplicatesInMerge()
  */
 public class CountDuplicatesInMergeTest {
+
     @Test
     public void integerTest() {
         // Given
@@ -72,5 +73,8 @@ public class CountDuplicatesInMergeTest {
 
         // Then
         Assert.assertEquals(expected, actual);
+
     }
+
+
 }
